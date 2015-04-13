@@ -3,7 +3,7 @@ defmodule CloudIServiceDbCouchdb do
 
   def project do
     [app: :cloudi_service_db_couchdb,
-     version: "1.4.0",
+     version: "1.5.0",
      language: :erlang,
      description: description,
      package: package,
@@ -14,7 +14,7 @@ defmodule CloudIServiceDbCouchdb do
     [{:ecouchdb,
       [git: "https://github.com/okeuday/ecouchdb.git",
        branch: "master"]},
-     {:cloudi_core, "~> 1.4.0"}]
+     {:cloudi_core, "~> 1.5.0"}]
   end
 
   defp description do
